@@ -12,8 +12,6 @@ namespace Pokemon
 {
     public partial class FoyerScreen : UserControl
     {
-        //design
-        Rectangle door = new Rectangle(100, 1100, 5, 100);
 
 
         bool leftADown, rightDDown, upWDown, downSDown, spaceKeyDown;
@@ -36,7 +34,27 @@ namespace Pokemon
 
         private void gameTimer_Tick(object sender, EventArgs e)
         {
-           
+            if (upWDown)
+            {
+                trainer.Move("up");
+            }
+            if (downSDown)
+            {
+                trainer.Move("down");
+            }
+            if (leftADown)
+            {
+                trainer.Move("left");
+            }
+            if (rightDDown)
+            {
+                trainer.Move("right");
+            }
+
+            //if(trainer.x < 63 && trainer.X > 232 && trainer.Y == 877 && spaceKeyDown == true)
+            //{
+            //    Form1.ChangeScreen(this, new OutsideScreen());
+            //}
         }
 
         private void FoyerScreen_KeyUp(object sender, KeyEventArgs e)

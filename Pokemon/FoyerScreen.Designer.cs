@@ -48,17 +48,17 @@
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.SeaShell;
             this.pictureBox3.Image = global::Pokemon.Properties.Resources.staircase;
-            this.pictureBox3.Location = new System.Drawing.Point(724, 11);
+            this.pictureBox3.Location = new System.Drawing.Point(951, 132);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(376, 274);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.Size = new System.Drawing.Size(150, 154);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox3.TabIndex = 3;
             this.pictureBox3.TabStop = false;
             // 
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Black;
-            this.pictureBox2.Location = new System.Drawing.Point(68, 838);
+            this.pictureBox2.Location = new System.Drawing.Point(63, 877);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(169, 23);
             this.pictureBox2.TabIndex = 2;
